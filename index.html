@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container ">
+             <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand text-white py-5 d-flex" href="#"><img src="logo.png" alt="" class="logo px-1 h-25">
+                <div class="logo-type">
+                  <h5 class="site-title m-0 ">Weather</h5>
+                  <small class="site-description m-0 ">tagline goes here</small>
+                </div></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0  p-1 ">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active ms-3" id="home" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class=" nav-link text-white ms-3" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white ms-3"  href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white ms-3" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white ms-3"  href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+       
+    </header>
+<section>
+  <div class="data-background">
+    <div class="container py-5 ">
+      <div class="input-group mb-3"> 
+        <input type="text" class="w-100 py-3 rounded-5 " placeholder="   Find your location" aria-label="Location Name" aria-describedby="button-addon2">
+        <button class="btn btn-info rounded-5 px-4 text-white" type="button" id="button-addon2">Find</button>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="weather-forecast " id="weather_forecast">
+      
+    </div>
+
+
+    
+
+   </div>
+</section>
+ 
+
+<footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="container col-md-8 py-3 ">
+            <div class="input-group mb-3"> 
+              <input type="text" class="w-100 py-3 rounded-5 " placeholder="   Enter your Email to subscribe" aria-label="Location Name" aria-describedby="button-addon2">
+              <button class="btn btn-info rounded-5 px-4 text-white" type="button" id="button-addon2">Find</button>
+            </div>
+      
+          </div>
+      
+          <div class="col-md-3 col-md-offset-1">
+            <div class="social-links py-4 px-5">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.0/moment.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

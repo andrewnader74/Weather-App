@@ -1,0 +1,116 @@
+body
+{
+background-color: #1e202b !important ;
+}
+
+.site-description
+{
+    font-size: xx-small;
+}
+.site-title
+{
+    font-size: medium;
+}
+
+#home
+{
+    color:#009ad8 !important ;
+    border: 2px solid transparent;
+    border-color: #009ad8;
+    border-radius: 30px;
+    padding: 5px 25px !important;
+
+}
+
+.navbar ul a 
+{
+    padding: 5px 25px !important;
+    
+
+}
+.navbar .nav-link:hover
+{
+   color:#009ad8 !important ;
+   border: 2px solid transparent;
+   border-color: #009ad8;
+   border-radius: 30px;
+   padding: 5px 25px !important;
+
+}
+
+.data-background
+{
+    background-image:url(banner.png) !important;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+#button-addon2
+{
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    background: #009ad8;
+    
+}
+
+.data-background input
+{
+    border:#1e202b  ;
+    background-color: #1e202b !important;
+    position: relative;
+}
+
+.weather-forecast
+{
+    color: #b1c1bf;
+
+}
+.weather-forecast .today .forecast-header
+{
+color: #b1c1bf;
+background-color: #2d303d !important;
+
+}
+.weather-forecast #current
+{
+    padding-bottom: 50px;
+}
+.weather-forecast .container
+{
+    background-color: #323544;
+
+}
+.day2
+{
+ background-color:    #222530 !important;
+}
+
+.day2-content
+{
+    background-color: #262936;
+}
+.day3
+{
+    background-color: #2d303d
+}
+
+.num
+{
+    font-size: 90px;
+}
+
+.custom
+{
+    color: #009ad8;
+}
+
+.site-footer
+{
+    background-color: #262936;
+}
+.social-links
+{
+    font-size: 20px;
+}
